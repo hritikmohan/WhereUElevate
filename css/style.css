@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  background-image: url(https://fps.cdnpk.net/images/home/subhome-ai.webp?w=649&h=649);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.container {
+  background: #000;
+  color: #fff;
+  opacity: 0.6;
+  border-style: double;
+  border-width: 5px 10px;
+  border-color: blue gold red white;
+  margin: 5px;
+  width: 500px;
+  height: auto;
+  float: left;
+}
+
+.paragraph {
+  height: 400px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+}
+
+#my-container {
+  background-color: blueviolet;
+  color: yellow;
+  opacity: 0.5;
+  border: 5px solid black;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 20px;
+  max-width: 300px;
+  outline: 3px dashed white;
+  outline-offset: 5px;
+  position: relative;
+  left: 50px;
+  float: left;
+}
+
+h1 {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-variant: small-caps;
+}
+
+h5 {
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.para {
+  font-size: large;
+  text-align: center;
+  text-align-last: right;
+  width: 400px;
+  border: 5px solid black;
+  text-decoration: line-through white 2px dotted;
+  text-transform: capitalize;
+  text-indent: 50px;
+  line-height: 30px;
+  text-shadow: 2px 2px 5px red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  background-color: darkcyan;
+  font: italic 900 50px Monospace;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+}
+
+a:visited {
+  background-color: red;
+  font: normal 500 25px serif;
+}
+
+a:hover {
+  background-color: burlywood;
+  text-decoration: underline yellow dashed 4px;
+}
+
+a:active {
+  background-color: greenyellow;
+  color: red;
+}
+
+.unordered-list {
+  margin: 10px;
+  list-style-type: square;
+  list-style-position: outside;
+  color: #fff;
+}
+
+.ordered-list {
+  margin: 10px;
+  list-style-type: upper-roman;
+  list-style-position: inside;
+  color: yellow;
+}
+
+table {
+  border: 2px solid;
+  width: 100%;
+  border-collapse: collapse;
+  position: absolute;
+  z-index: 1;
+}
+
+th,
+td {
+  border: 1px dashed;
+  text-align: left;
+  padding: 5px;
+}
+
+th {
+  height: 50px;
+  text-align: center;
+  vertical-align: top;
+}
+
+tr:nth-child(even) {
+  background-color: cyan;
+}
+
+tr:nth-child(even):hover {
+  background-color: burlywood;
+}
+
+.table {
+  overflow-x: auto;
+  position: relative;
+  height: 100px;
+}
+
+.container1 {
+  width: 100%;
+  position: relative;
+}
+h2 {
+  background: yellow;
+  color: blue;
+  z-index: 2;
+  border: 1px solid black;
+  position: absolute;
+  z-index: -1;
+}
+
+h6 {
+  background: red;
+  color: #000;
+  text-align: center;
+  /* z-index: 1; */
+  border: 1px solid black;
+  position: absolute;
+}
+
+.overflow {
+  height: 100px;
+  background-color: chocolate;
+  overflow: auto;
+}
+
+.navigate {
+  list-style-type: none;
+  height: 50px;
+  background-color: burlywood;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 50px; /* Ensures parent aligns inline elements */
+}
+
+#item {
+  display: inline-block;
+  background-color: cadetblue;
+  vertical-align: middle; /* Align inline-block elements vertically */
+  padding: 0 10px;
+  margin: 0  20px;
+}
+
+@media screen and (max-width: 600px) {
+  .container{
+    float: none;
+  }
+
+  #my-container{
+    float: none;
+  }
+}

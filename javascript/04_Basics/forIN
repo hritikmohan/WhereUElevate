@@ -1,0 +1,17 @@
+const obj = {
+    name: "Car",
+    model: "Verna",
+    company: "Hyundai",
+    year: "2020",
+};
+
+for (const prop in obj) {
+    console.log(`${prop} ---> ${obj[prop]}`);
+}
+
+let carDetails = "";
+for (const key in obj){
+    carDetails += obj[key];
+    carDetails += " "
+}
+console.log(carDetails);
